@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|solutionrelative:CMP105App\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|solutionrelative:CMP105App\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|solutionrelative:CMP105App\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Framework\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|solutionrelative:CMP105App\\Framework\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Framework\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F520D79-1B6D-459D-A675-3DF6036FB322}|CMP105App\\CMP105App.vcxproj|solutionrelative:CMP105App\\Framework\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Level.h",
+              "DocumentMoniker": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Level.h",
+              "RelativeDocumentMoniker": "CMP105App\\Level.h",
+              "ToolTip": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Level.h",
+              "RelativeToolTip": "CMP105App\\Level.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T13:52:43.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Main.cpp",
+              "RelativeDocumentMoniker": "CMP105App\\Main.cpp",
+              "ToolTip": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Main.cpp",
+              "RelativeToolTip": "CMP105App\\Main.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T14:01:12.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Level.cpp",
+              "DocumentMoniker": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Level.cpp",
+              "RelativeDocumentMoniker": "CMP105App\\Level.cpp",
+              "ToolTip": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Level.cpp*",
+              "RelativeToolTip": "CMP105App\\Level.cpp*",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAF4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T13:56:03.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Framework\\Input.cpp",
+              "RelativeDocumentMoniker": "CMP105App\\Framework\\Input.cpp",
+              "ToolTip": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Framework\\Input.cpp",
+              "RelativeToolTip": "CMP105App\\Framework\\Input.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T14:33:23.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Input.h",
+              "DocumentMoniker": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Framework\\Input.h",
+              "RelativeDocumentMoniker": "CMP105App\\Framework\\Input.h",
+              "ToolTip": "C:\\Users\\lucar\\Documents\\GitHub\\team-dratini-group-project-Blacksmith-game\\Coursework\\CMP105App\\Framework\\Input.h",
+              "RelativeToolTip": "CMP105App\\Framework\\Input.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T14:33:24.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
