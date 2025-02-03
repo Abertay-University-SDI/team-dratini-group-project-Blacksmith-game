@@ -12,7 +12,59 @@ public:
 	void update(float dt);
 	void render();
 
+	sf::CircleShape gobsmith;
+	sf::CircleShape knobold;
+
+	float returnGobSpeed()
+	{
+		return gobSpeed;
+	}
+
+	void setGobSpeed(float myGobSpeed)
+	{
+		gobSpeed = myGobSpeed;
+	}
+
+	float returnKnobSpeed()
+	{
+		return knobSpeed;
+	}
+
+	void setKnobSpeed(float myKnobSpeed)
+	{
+		knobSpeed = myKnobSpeed;
+	}
+
+	int returnGobDirection()
+	{
+		return gobDirection;
+	}
+
+	void setGobDirection(int myGobDirection)
+	{
+		gobDirection = myGobDirection;
+	}
+
+	int returnKnobDiretion()
+	{
+		return knobDirection;
+	}
+
+	void setKnobDirection(int myKnobDirection)
+	{
+		knobDirection = myKnobDirection;
+	}
+
+
 private:
+	float gobSpeed = 400;
+	float knobSpeed = 100;
+	int gobDirection = 1;
+	int knobDirection = 1;
+	sf::Vector2f gobPos;
+
+
+
 	// Default functions for rendering to the screen.
 	
 
