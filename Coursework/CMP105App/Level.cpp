@@ -13,6 +13,9 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, AudioManager* aud
 	gobsmith.setRadius(20);
 	gobsmith.setFillColor(sf::Color::Green);
 
+	knobold.setPosition(600,600);
+	knobold.setRadius(20);
+	knobold.setFillColor(sf::Color::Red);
 
 
 }
@@ -42,6 +45,23 @@ void Level::handleInput(float dt)
 		gobsmith.move(0,gobDirection * gobSpeed * dt);
 	}
 
+	if (input->isKeyDown(sf::Keyboard::Right))
+	{
+		knobold.move(knobDirection * knobSpeed * dt, 0);
+	}
+	if (input->isKeyDown(sf::Keyboard::Left))
+	{
+		knobold.move(-knobDirection * knobSpeed * dt, 0);
+	}
+	if (input->isKeyDown(sf::Keyboard::Up))
+	{
+		knobold.move(0, -knobDirection * knobSpeed * dt);
+	}
+	if (input->isKeyDown(sf::Keyboard::Down))
+	{
+		knobold.move(0, knobDirection * knobSpeed * dt);
+	}
+
 
 
 }
@@ -50,6 +70,7 @@ void Level::handleInput(float dt)
 void Level::update(float dt)
 {
 	gobPos = gobsmith.getPosition();
+	knobPos = knobold.getPosition();
 
 
 	
@@ -73,6 +94,26 @@ void Level::update(float dt)
 	{
 		gobsmith.setPosition(gobPos.x, 0);
 	}
+
+	if (knobPos.x + knobold.getGlobalBounds().width > window->getSize().x)
+	{
+		knobold.setPosition(window->getSize().x - 40, knobPos.y);
+	}
+
+	else if (knobPos.x < 0)
+	{
+		knobold.setPosition(0, knobPos.y);
+	}
+
+	else if (knobPos.y + knobold.getGlobalBounds().height > window->getSize().y)
+	{
+		knobold.setPosition(knobPos.x, window->getSize().y - 40);
+	}
+
+	else if (knobPos.y < 0)
+	{
+		knobold.setPosition(knobPos.x, 0);
+	}
 }
 
 // Render level
@@ -81,6 +122,7 @@ void Level::render()
 	beginDraw();
 
 	window->draw(gobsmith);
+	window->draw(knobold);
 
 	endDraw();
 }

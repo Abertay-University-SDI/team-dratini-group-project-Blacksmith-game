@@ -58,10 +58,11 @@ public:
 
 private:
 	float gobSpeed = 400;
-	float knobSpeed = 100;
+	float knobSpeed = 400;
 	int gobDirection = 1;
 	int knobDirection = 1;
 	sf::Vector2f gobPos;
+	sf::Vector2f knobPos;
 
 
 
