@@ -25,7 +25,7 @@ void Level::handleInput(float dt)
 // Update game objects
 void Level::update(float dt)
 {
-	
+	std::cout << "BASED BASED BASED";
 }
 
 // Render level
